@@ -35,3 +35,4 @@ ruby ./boris-bikes/boris-bikes.rb
 13. This is very similar to what we did in 12, except we're applying a ceiling instead of a floor.
 14. In this step we learned how to wrap a collection in a class and set initial atribute values using initialize.
 15. We learned how to use the single responsibility principle and refactoring.
+16. Learned how to use a constant and getting rid of magic numbers. We also lerned about namespace operators.
