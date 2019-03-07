@@ -46,4 +46,8 @@ describe DockingStation do
     end
   end
 
+  it 'returns a non-default capacity' do
+    expect(DockingStation.new(25).capacity).to eq 25
+  end
+
 end

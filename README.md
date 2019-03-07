@@ -3,11 +3,12 @@
 ## LOCATION ##
 
 https://github.com/saypop/boris-bikes
+Taken from https://github.com/makersacademy/course/tree/master/boris_bikes
 
 ## DESCRIPTION ##
 
 This is a coding exercise we are doing in our first week at Makers Academy.
-We are going to simulate the releasing returning of bike from docking stations.
+We are going to simulate the releasing returning of bikes from docking stations.
 
 ## FRAMEWORK USED ##
 
@@ -35,4 +36,5 @@ ruby ./boris-bikes/boris-bikes.rb
 13. This is very similar to what we did in 12, except we're applying a ceiling instead of a floor.
 14. In this step we learned how to wrap a collection in a class and set initial atribute values using initialize.
 15. We learned how to use the single responsibility principle and refactoring.
-16. Learned how to use a constant and getting rid of magic numbers. We also lerned about namespace operators.
+16. Learned how to use a constant and getting rid of magic numbers. We also learned about namespace operators.
+17. In this step we figured out how to initialise an attribute value and set a default initialisation value.
