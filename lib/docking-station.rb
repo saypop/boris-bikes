@@ -14,12 +14,12 @@ class DockingStation
 
   # updated under the assumption that docks start empty
   def release_bike
-    fail 'No bikes available' if @dock.empty?
+    fail 'No bikes available' if empty?
     @bike = @dock.pop
   end
 
   def dock(bike)
-    fail 'Dockstation is full' if @dock.size >= 20 # (not future proof code as dockstation capacity can only be 1)
+    fail 'Dockstation is full' if full? # (not future proof code as dockstation capacity can only be 1)
     @dock << bike
     @dock[-1]
   end
@@ -28,5 +28,14 @@ class DockingStation
   # def bike
   #   @bike
   # end
+
+  private
+  def full?
+    @dock.size >= 20
+  end
+
+  def empty?
+    @dock.empty?
+  end
 
 end

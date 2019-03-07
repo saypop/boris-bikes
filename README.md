@@ -33,3 +33,5 @@ ruby ./boris-bikes/boris-bikes.rb
 11. In this step we learned about instance variables. We covered how to write RSpec tests that require arguments, passing instance variables as arguments, sets attributes in objects using instance variables and use attr_reader.
 12. We wrote RSpec errors that expect errors in this step, learned how to use fail and raise to generate an error and learned what 'guard conditions' are and how to use them to stop your programmes doing the impossible. We also learned when to use nested describes in RSpec tests.
 13. This is very similar to what we did in 12, except we're applying a ceiling instead of a floor.
+14. In this step we learned how to wrap a collection in a class and set initial atribute values using initialize.
+15. We learned how to use the single responsibility principle and refactoring.
