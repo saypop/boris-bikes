@@ -39,10 +39,8 @@ describe DockingStation do
   # check if the dock is full when we try to dock a new bike
   describe '#dock' do
     it 'raises an error if dock capacity is full' do
-      bike = Bike.new
-      subject.dock(bike)
-      bike = Bike.new # override to create > 1 instance variables
-      expect{subject.dock(bike)}.to raise_error 'Dockstation is full'
+      20.times { subject.dock(Bike.new) }
+      expect{subject.dock(Bike.new)}.to raise_error 'Dockstation is full'
     end
   end
 
